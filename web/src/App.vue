@@ -13,6 +13,7 @@
 </template>
 
 <script>
+//导入全局工具js文件
 import util from '@/libs/util'
 
 export default {
