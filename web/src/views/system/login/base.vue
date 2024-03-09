@@ -89,6 +89,8 @@ export default {
         this.formLogin.captcha = null
         this.captchaKey = ret.data.key
         this.image_base = ret.data.image_base
+        //base64编码，用作小图片还行，但是比一般的图片数据略大，对于大图片还是采用url好些
+        console.log(this.image_base)
       })
     },
     /**
